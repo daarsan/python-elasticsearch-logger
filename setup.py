@@ -23,8 +23,8 @@ dependencies = [
 ]
 
 # If python version is above 3.4 (built in enums supported enums)
-if sys.version_info <= (3,4):
-    dependencies.append('enum')
+# if sys.version_info <= (3,4):
+#     dependencies.append('enum')
 
 print("List of dependencies : {0}".format(str(dependencies)))
 
